@@ -13,3 +13,37 @@
 
 /*Escribe aqui tu codigo */
 
+.black-bg {
+    background: #424a5d;
+}
+#sidebar {
+    width: 210px;
+    height: 100%;
+    margin-top: 4%;
+}
+#main-content {
+	margin-left: 210px;
+	padding-top: 4%;
+}
+.top-menu {
+	position: absolute;
+}
+.fixed {
+	position: fixed;
+}
+.header {
+	position: fixed;
+	width: 100%;
+	padding: 10px;
+}
+.sidebar-toggle-box, .logo {
+	color: white;
+	display: inline-block;
+	font-size: 20px;
+	margin-right: 10px;
+}
+.top-menu {
+	position: relative;
+	margin-top: -15px;
+}
+
