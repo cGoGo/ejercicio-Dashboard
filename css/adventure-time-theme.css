@@ -16,15 +16,6 @@
 .black-bg {
     background: #424a5d;
 }
-#sidebar {
-    width: 210px;
-    height: 100%;
-    margin-top: 4%;
-}
-#main-content {
-	margin-left: 210px;
-	padding-top: 4%;
-}
 .top-menu {
 	position: absolute;
 }
@@ -35,6 +26,8 @@
 	position: fixed;
 	width: 100%;
 	padding: 10px;
+	z-index: 10;
+	border-bottom: rgb(41, 50, 93) 1px solid; 
 }
 .sidebar-toggle-box, .logo {
 	color: white;
@@ -42,8 +35,43 @@
 	font-size: 20px;
 	margin-right: 10px;
 }
+.logout {
+	background: #9c4c9d;
+	color: white;
+	border-radius: 5px;
+	font-size: 0.8em;
+}
+.top-menu .logout.btn:hover {
+	background: #803281;
+	color: #eee;
+}
 .top-menu {
 	position: relative;
 	margin-top: -15px;
 }
-
+.sidebar-menu {
+	padding: 10% 0;
+}
+.sub-menu {
+	list-style: none;
+	padding: 0 10px;
+}
+.sub-menu a {
+	color: white;
+	padding: 25%;
+}
+.sub-menu i {
+	margin: 0 5px;
+}
+#sidebar {
+    width: 210px;
+    height: 100%;
+    margin-top: 4%;
+}
+#main-content {
+	margin-left: 210px;
+	padding-top: 50px;
+}
+.text-white {
+	color: white;
+}
