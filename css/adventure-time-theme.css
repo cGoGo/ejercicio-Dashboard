@@ -26,8 +26,11 @@
 	position: fixed;
 	width: 100%;
 	padding: 10px;
-	z-index: 10;
+	z-index: 12;
 	border-bottom: rgb(41, 50, 93) 1px solid; 
+}
+.sidebar {
+	z-index: 11;
 }
 .sidebar-toggle-box, .logo {
 	color: white;
@@ -41,37 +44,142 @@
 	border-radius: 5px;
 	font-size: 0.8em;
 }
-.top-menu .logout.btn:hover {
-	background: #803281;
-	color: #eee;
-}
 .top-menu {
 	position: relative;
 	margin-top: -15px;
 }
 .sidebar-menu {
-	padding: 10% 0;
+	padding: 15% 0;
+}
+.bonnibel {
+	margin-bottom: 5px;
 }
 .sub-menu {
-	list-style: none;
-	padding: 0 10px;
+	margin: 0 4%;
+    padding: 8% 0;
+}
+.sub-menu:hover {
+	background: #9c4c9d;
+	text-decoration: none;
 }
 .sub-menu a {
-	color: white;
-	padding: 25%;
+	list-style: none;
+}
+.sub-menu span {
+	font-size: 0.9em;
+	font-weight: 100;
+	color: #AEB2B7;
 }
 .sub-menu i {
-	margin: 0 5px;
+	margin: 0 5px 0 8px;
+	color: #AEB2B7;
+	font-size: 1.2em;
 }
 #sidebar {
     width: 210px;
     height: 100%;
     margin-top: 4%;
 }
+
+/* Iconos superiores */
 #main-content {
 	margin-left: 210px;
-	padding-top: 50px;
+	padding-top: 4%;
+	background-color: #F2F2F2;
 }
+.box0 {
+	text-align: center;
+	margin-top: 2%;
+	padding: 2% 2% 0 2%;
+	max-height: 180px;
+}
+.box0:hover {
+	background-color: #fff;
+	box-shadow: 0px 1px 1px #AAB2BD;
+	border: 0px;
+}
+.box1 {
+	color: #989898;
+}
+.box1 span {
+	font-size: 3em;
+}
+.box1 h3 {
+	border-bottom: #989898 1px solid;
+	padding-bottom: 20%;
+	margin-bottom: 0;
+}
+.box0 p {
+	visibility: hidden;
+}
+.box0:hover p {
+	visibility: visible;
+	color: #FF875D;
+	text-align: center;
+	font-size: 0.8em;
+	padding: 0;
+}
+.box0:hover h3 {
+	border: 0px;
+}
+
+/* Mis favoritos */
+.mis-favoritos {
+	color: #797979;
+	padding-left: 2%;
+}
+.main-video {
+	color: #797979;
+	padding-left: 2%;
+}
+.buttons a {
+	padding: 0 2%;
+}
+
+/* Videos Papulares */
+.showback {
+	background-color: #fff;
+	box-shadow: 0px 2px 2px #AAB2BD;
+	color: #797979;
+	padding: 2%;
+	margin-left: 2%;
+	margin-bottom: 2%;
+}
+
+/* Barra Lateral */
+.ds {
+	background: white;
+}
+.ds h3 {
+	background-color: #9C4C9D;
+	color: white;
+	text-align: center;
+	padding: 8% 0;
+	font-size: 1.2em;
+}
+.desc {
+	border-bottom: 1px #EAEAEA solid;
+	padding: 6% 4%;
+}
+.desc .badge {
+	background-color: #68DFF0;
+}
+.thumb {
+	margin: 0 2%;
+	display: inline-block;
+}
+.details {
+	display: inline-block;
+	width: 60%;
+}
+.details muted {
+	font-style: italic;
+}
+.details p {
+	color: #898989;
+	font-size: 0.8em;
+}
+/* Utilidades */
 .text-white {
 	color: white;
 }
