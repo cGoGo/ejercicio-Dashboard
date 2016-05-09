@@ -215,6 +215,37 @@
 	margin-bottom: 2%;
 }
 
+/* Formulario */
+#login-page {
+	background-color: #F2F2F2;
+}
+
+.form-login {
+	width: 30%;
+	margin: 0 auto;
+	margin-top: 5%;
+	margin-bottom: 15%;
+	background-color: #fff;
+	padding-bottom: 2%;
+	border-radius: 5px;
+
+}
+.form-login-heading {
+	background-color: #68DFF0;
+	font-size: 1.5em;
+	font-weight: 100;
+	text-transform: uppercase;
+	color: white;
+	padding: 10% 15%;
+	text-align: center;
+	border-radius: 5px;
+}
+.login-wrap {
+	padding: 0 4%;
+	margin-bottom: 4%;
+
+}
+
 /* Utilidades */
 .text-white {
 	color: white;
