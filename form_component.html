@@ -6,9 +6,12 @@
     <meta name="description" content="">
     <meta name="author" content="Dashboard">
     <meta name="keyword" content="Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
-
     <title>Adventure time: Dashboard</title>
-
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/lineicons.css">
+    <link rel="stylesheet" href="css/adventure-time-theme-responsive.css">
+    <link rel="stylesheet" href="css/adventure-time-theme.css">
     
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -18,11 +21,10 @@
   </head>
 
   <body>
-
-  <section id="container" >
+    <section id="container" >
       <header class="header black-bg">
         <div class="sidebar-toggle-box">
-            <div class="fa fa-bars tooltips" data-placement="right" data-original-title="Toggle Navigation"></div>
+          <div class="fa fa-bars tooltips" data-placement="right" data-original-title="Toggle Navigation"></div>
         </div>       
         <a href="dashboard.html" class="logo">
           <b class="hidden-xs">ADVENTURE TIME: DASHBOARD</b>
@@ -30,19 +32,19 @@
         </a>
         <div class="top-menu">
           <ul class="nav pull-right top-menu">
-            <li><a class="logout" href="login.html">Logout</a></li>
+            <li><a class="logout btn" href="login.html">Logout</a></li>
           </ul>
         </div>
       </header>
       <aside>
-        <div id="sidebar"  class="nav-collapse ">
+        <div id="sidebar"  class="nav-collapse black-bg fixed hidden-xs">
           <ul class="sidebar-menu">
             <p class="text-center">
               <a href="profile.html">
                 <img src="img/profile_avatar.png" class="img-circle" width="60">
               </a>
             </p>
-            <h5 class="text-center">Bonnibel Bubblegum</h5>
+            <h5 class="text-center text-white bonnibel"><strong>Bonnibel Bubblegum</strong></h5>
             <li class="sub-menu">
               <a href="dashboard.html">
                 <i class="fa fa-dashboard"></i>
@@ -61,8 +63,8 @@
                 <span>Progress Bars</span>
               </a>
             </li>            
-            <li class="sub-menu">
-              <a class="active" href="form_component.html" >
+            <li class="sub-menu active">
+              <a href="form_component.html" >
                 <i class="fa fa-cogs"></i>
                 <span>Forms</span>
               </a>
@@ -90,9 +92,8 @@
       </aside>
       <!--main content start-->
       <section id="main-content">
-        <section class="wrapper">
+        <section class="wrapper text-gray">
           <h3><i class="fa fa-angle-right"></i> Form Components</h3>
-          
           <!-- BASIC FORM ELELEMNTS -->
           <div class="row mt">
             <div class="col-lg-12">
@@ -213,7 +214,6 @@
                     Option one is this and that&mdash;be sure to include why it's great
                   </label>
                 </div>
-                
                 <div class="radio">
                   <label>
                     <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
@@ -226,7 +226,6 @@
                     Option two can be something else and selecting it will deselect option one
                   </label>
                 </div>
-                
                 <hr>
                 <label class="checkbox-inline">
                   <input type="checkbox" id="inlineCheckbox1" value="option1"> 1
@@ -237,7 +236,6 @@
                 <label class="checkbox-inline">
                   <input type="checkbox" id="inlineCheckbox3" value="option3"> 3
                 </label>
-                
                 <hr>
                 <select class="form-control">
                   <option>1</option>
@@ -256,12 +254,10 @@
                 </select>           
               </div><!-- /form-panel -->
             </div><!-- /col-lg-12 -->
-      </div><!-- /row -->
-      
-      
-    </section><!--/wrapper -->
-  </section><!-- /MAIN CONTENT -->
-  </section>
+          </div><!-- /row -->
+        </section><!--/wrapper -->
+      </section><!-- /MAIN CONTENT -->
+    </section>
 
     <!-- js placed at the end of the document so the pages load faster -->
     <script src="js/jquery.js"></script>
