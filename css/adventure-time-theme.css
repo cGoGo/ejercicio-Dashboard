@@ -210,6 +210,10 @@
 .control-label {
 	text-align: left;
 }
+ /* Gallery */
+.img-galeria {
+	margin-bottom: 2%;
+}
 
 /* Utilidades */
 .text-white {
